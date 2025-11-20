@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Planner Online</title>
+    <title>Perencanaan Belajar Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Study Planner Online</h1>
+        <h1>Perencanaan Belajar Online</h1>
+        <h3>Oleh : Aurel dan Adev</h3>
 
         <div class="task-form">
             <input type="text" id="taskName" placeholder="Nama Tugas">
             <input type="date" id="taskDeadline">
             <select id="taskPriority">
-                <option value="High">High</option>
-                <option value="Medium">Medium</option>
-                <option value="Low">Low</option>
+                <option value="High">Tinggi</option>
+                <option value="Medium">Sedang</option>
+                <option value="Low">Rendah</option>
             </select>
             <button onclick="addTask()">Tambah Tugas</button>
         </div>
 
         <div class="task-controls">
-            <button onclick="sortByDeadline()">Sort by Deadline</button>
-            <button onclick="sortByPriority()">Sort by Priority</button>
+            <button onclick="sortByDeadline()">Urut berdasar Deadline</button>
+            <button onclick="sortByPriority()">Urut Berdasar Prioritas</button>
         </div>
 
         <ul id="taskList"></ul>
