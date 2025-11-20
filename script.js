@@ -1,5 +1,4 @@
 let tasks = [];
-
 function addTask() {
     let name = document.getElementById("taskName").value;
     let deadline = document.getElementById("taskDeadline").value;
