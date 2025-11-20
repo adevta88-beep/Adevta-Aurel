@@ -1,6 +1,9 @@
 let tasks = [];
 }
 
+function addTask(){
+  
+}
 
 function renderTasks() {
 let list = document.getElementById("taskList");
