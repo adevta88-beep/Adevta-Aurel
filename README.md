@@ -1,6 +1,4 @@
-# Adevta-Aurel
-# README.md
-# Perencanaan Tugas Online
+# Perencanaan Tugas Online Oleh Aurel dan Adev
 
 ## Latar Belakang
 Siswa sering kesulitan mengatur tugas dan jadwal belajar. Website ini dibuat untuk membantu mengorganisir tugas, deadline, dan prioritas dengan mudah.
